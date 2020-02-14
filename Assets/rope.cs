@@ -9,7 +9,7 @@ public class rope : MonoBehaviour
     {
         if (collision.gameObject.tag.CompareTo("Player") == 0)
         {
-            DataManager.Instance.score += 1;
+            DataManager.Instance.score += 20;
             gameObject.SetActive(false);
         }
 

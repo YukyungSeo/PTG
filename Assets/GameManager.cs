@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
-        /*
+        
         int temp = DataManager.Instance.score / 100;
         NumberImage[0].GetComponent<Image>().sprite = Number[temp];
         int temp2 = DataManager.Instance.score % 100;
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         NumberImage[1].GetComponent<Image>().sprite = Number[temp2];
         int temp3 = DataManager.Instance.score % 10;
         NumberImage[2].GetComponent<Image>().sprite = Number[temp3];
-        */
+       
        
        StarUI.sprite = Stars[DataManager.Instance.star];
 
